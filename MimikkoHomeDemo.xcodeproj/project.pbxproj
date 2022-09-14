@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22414FB928D185F900DB5230 /* WindbellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414FB828D185F900DB5230 /* WindbellView.swift */; };
+		229A626D28C5FF7B004296D0 /* MimikkoHomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A626C28C5FF7B004296D0 /* MimikkoHomeDemoApp.swift */; };
+		229A626F28C5FF7B004296D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A626E28C5FF7B004296D0 /* ContentView.swift */; };
+		229A627128C5FF7C004296D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229A627028C5FF7C004296D0 /* Assets.xcassets */; };
+		229A627428C5FF7C004296D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229A627328C5FF7C004296D0 /* Preview Assets.xcassets */; };
+		22EF7BA328C6FA3200D78B5E /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7B9F28C6FA3200D78B5E /* FeatureCard.swift */; };
+		22EF7BA528C6FA3200D78B5E /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7BA128C6FA3200D78B5E /* PageView.swift */; };
+		22EF7BA628C6FA3200D78B5E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7BA228C6FA3200D78B5E /* PageViewController.swift */; };
+		22EF7BA928C6FAE300D78B5E /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7BA828C6FAE300D78B5E /* PageModel.swift */; };
+		22EF7BAE28C745A600D78B5E /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7BAD28C745A600D78B5E /* Extension+View.swift */; };
+		22EF7BB228C7586C00D78B5E /* Extension+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7BB128C7586C00D78B5E /* Extension+Animation.swift */; };
+		22EF7BB428C8489A00D78B5E /* IconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7BB328C8489A00D78B5E /* IconImage.swift */; };
+		22EF7BB728C86D1100D78B5E /* FilpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7BB628C86D1100D78B5E /* FilpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22414FB828D185F900DB5230 /* WindbellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindbellView.swift; sourceTree = "<group>"; };
+		229A626928C5FF7B004296D0 /* MimikkoHomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MimikkoHomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229A626C28C5FF7B004296D0 /* MimikkoHomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimikkoHomeDemoApp.swift; sourceTree = "<group>"; };
+		229A626E28C5FF7B004296D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		229A627028C5FF7C004296D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229A627328C5FF7C004296D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22EF7B9F28C6FA3200D78B5E /* FeatureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		22EF7BA128C6FA3200D78B5E /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		22EF7BA228C6FA3200D78B5E /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		22EF7BA828C6FAE300D78B5E /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		22EF7BAD28C745A600D78B5E /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		22EF7BB128C7586C00D78B5E /* Extension+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Animation.swift"; sourceTree = "<group>"; };
+		22EF7BB328C8489A00D78B5E /* IconImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImage.swift; sourceTree = "<group>"; };
+		22EF7BB628C86D1100D78B5E /* FilpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229A626628C5FF7B004296D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22414FB728D027F000DB5230 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		229A626028C5FF7B004296D0 = {
+			isa = PBXGroup;
+			children = (
+				229A626B28C5FF7B004296D0 /* MimikkoHomeDemo */,
+				229A626A28C5FF7B004296D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229A626A28C5FF7B004296D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229A626928C5FF7B004296D0 /* MimikkoHomeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229A626B28C5FF7B004296D0 /* MimikkoHomeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22414FB728D027F000DB5230 /* Modifier */,
+				22EF7BAC28C7459800D78B5E /* Other */,
+				22EF7BA728C6FAD100D78B5E /* Model */,
+				22EF7B9E28C6FA0E00D78B5E /* PageView */,
+				229A626C28C5FF7B004296D0 /* MimikkoHomeDemoApp.swift */,
+				229A626E28C5FF7B004296D0 /* ContentView.swift */,
+				229A627028C5FF7C004296D0 /* Assets.xcassets */,
+				229A627228C5FF7C004296D0 /* Preview Content */,
+				22EF7BB328C8489A00D78B5E /* IconImage.swift */,
+			);
+			path = MimikkoHomeDemo;
+			sourceTree = "<group>";
+		};
+		229A627228C5FF7C004296D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				229A627328C5FF7C004296D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22EF7B9E28C6FA0E00D78B5E /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				22EF7B9F28C6FA3200D78B5E /* FeatureCard.swift */,
+				22EF7BA228C6FA3200D78B5E /* PageViewController.swift */,
+				22EF7BA128C6FA3200D78B5E /* PageView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		22EF7BA728C6FAD100D78B5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22EF7BA828C6FAE300D78B5E /* PageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22EF7BAC28C7459800D78B5E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				22EF7BAD28C745A600D78B5E /* Extension+View.swift */,
+				22EF7BB128C7586C00D78B5E /* Extension+Animation.swift */,
+				22EF7BB628C86D1100D78B5E /* FilpView.swift */,
+				22414FB828D185F900DB5230 /* WindbellView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229A626828C5FF7B004296D0 /* MimikkoHomeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229A627728C5FF7C004296D0 /* Build configuration list for PBXNativeTarget "MimikkoHomeDemo" */;
+			buildPhases = (
+				229A626528C5FF7B004296D0 /* Sources */,
+				229A626628C5FF7B004296D0 /* Frameworks */,
+				229A626728C5FF7B004296D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MimikkoHomeDemo;
+			productName = MimikkoHomeDemo;
+			productReference = 229A626928C5FF7B004296D0 /* MimikkoHomeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229A626128C5FF7B004296D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					229A626828C5FF7B004296D0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 229A626428C5FF7B004296D0 /* Build configuration list for PBXProject "MimikkoHomeDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229A626028C5FF7B004296D0;
+			productRefGroup = 229A626A28C5FF7B004296D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229A626828C5FF7B004296D0 /* MimikkoHomeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229A626728C5FF7B004296D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229A627428C5FF7C004296D0 /* Preview Assets.xcassets in Resources */,
+				229A627128C5FF7C004296D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229A626528C5FF7B004296D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EF7BA528C6FA3200D78B5E /* PageView.swift in Sources */,
+				22414FB928D185F900DB5230 /* WindbellView.swift in Sources */,
+				22EF7BA928C6FAE300D78B5E /* PageModel.swift in Sources */,
+				229A626F28C5FF7B004296D0 /* ContentView.swift in Sources */,
+				22EF7BAE28C745A600D78B5E /* Extension+View.swift in Sources */,
+				22EF7BB228C7586C00D78B5E /* Extension+Animation.swift in Sources */,
+				22EF7BA328C6FA3200D78B5E /* FeatureCard.swift in Sources */,
+				22EF7BB428C8489A00D78B5E /* IconImage.swift in Sources */,
+				22EF7BB728C86D1100D78B5E /* FilpView.swift in Sources */,
+				22EF7BA628C6FA3200D78B5E /* PageViewController.swift in Sources */,
+				229A626D28C5FF7B004296D0 /* MimikkoHomeDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		229A627528C5FF7C004296D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229A627628C5FF7C004296D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229A627828C5FF7C004296D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MimikkoHomeDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z92CZGZZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingyusha.MimikkoHomeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229A627928C5FF7C004296D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MimikkoHomeDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 35QFLB7H5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingyusha.MimikkoHomeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229A626428C5FF7B004296D0 /* Build configuration list for PBXProject "MimikkoHomeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229A627528C5FF7C004296D0 /* Debug */,
+				229A627628C5FF7C004296D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229A627728C5FF7C004296D0 /* Build configuration list for PBXNativeTarget "MimikkoHomeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229A627828C5FF7C004296D0 /* Debug */,
+				229A627928C5FF7C004296D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229A626128C5FF7B004296D0 /* Project object */;
+}
