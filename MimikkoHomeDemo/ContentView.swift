@@ -27,6 +27,7 @@ struct ContentView: View {
                         IconImage(name: "alarm", size: cardSize)
                         IconImage(name: "alarm", size: cardSize)
                         IconImage(name: "alarm", size: cardSize)
+                        WindbellView(cardSize: CGSize(width: 50, height: 100))
                     }
                     .padding(.leading, 30)
                     Spacer()

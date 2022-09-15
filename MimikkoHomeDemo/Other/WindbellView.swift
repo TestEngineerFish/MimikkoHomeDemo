@@ -12,23 +12,21 @@ struct WindbellView: View {
     @State private var currentDegrees: Double = 0
     @State private var timer: Timer?
     @State private var change: Bool = true
-    private let cardSize: CGSize = CGSize(width: 80, height: 200)
+    var cardSize: CGSize
     var body: some View {
-        VStack {
-            FlipView($change) {
-                IconImage(name: "alarm", size: cardSize)
-            } backView: {
-                IconImage(name: "page", size: cardSize)
-            }
-            .rotationEffect(Angle(degrees: degrees), anchor: UnitPoint(x: 0.5, y: 0))
-            Spacer()
-            Button("click") {
-                start()
-            }
+        FlipView($change) {
+            IconImage(name: "alarm", size: cardSize)
+        } backView: {
+            IconImage(name: "page", size: cardSize)
         }
+        .rotationEffect(Angle(degrees: degrees), anchor: UnitPoint(x: 0.5, y: 0))
+        .onAppear {
+            start()
+        }
+        
     }
     
-    func start() {
+    private func start() {
         self.timer = Timer(timeInterval: 3, repeats: true, block: { timer in
             withAnimation(.spring(response: 1.2, dampingFraction: 0.1, blendDuration: 0.1)) {
                 degrees = Double.random(in: -30...30)
@@ -52,6 +50,6 @@ struct WindbellView: View {
 
 struct WindbellView_Previews: PreviewProvider {
     static var previews: some View {
-        WindbellView()
+        WindbellView(cardSize: CGSize(width: 50, height: 100))
     }
 }
