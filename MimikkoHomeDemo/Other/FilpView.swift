@@ -54,7 +54,6 @@ struct flipAnimation: Animatable, ViewModifier {
             let _self = self
             DispatchQueue.main.async {
                 _self.degreesBinding = newValue
-                print("newValue: \(newValue)")
             }
         }
     }
